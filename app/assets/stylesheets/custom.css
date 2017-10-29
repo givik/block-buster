@@ -1,6 +1,6 @@
 .nav.navbar-nav.flex-child-menu.menu-left li a {
   font-size: 19px;
 }
-.nav.navbar-nav.flex-child-menu.menu-left li a.active{
+.nav.navbar-nav.flex-child-menu li a.active{
   color: #dcf836;
 }

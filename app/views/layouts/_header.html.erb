@@ -1,0 +1,56 @@
+<!-- BEGIN | Header -->
+<header class="ht-header">
+  <div class="container">
+    <nav class="navbar navbar-default navbar-custom">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header logo">
+        <div class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <div id="nav-icon1">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <a href="/"><img class="logo" src="/assets/logo1.png" alt="" width="119" height="58"></a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse flex-parent" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav flex-child-menu menu-left">
+
+          <li><a href="/" <%="class=active" if current_page?( '/') %> >home</a></li>
+          <li><a href="/movies" <%="class=active" if current_page?( '/movies') %> >movies</a></li>
+          <li><a href="/celebrities" <%="class=active" if current_page?( '/celebrities') %> >celebrities</a></li>
+          <li><a href="/news" <%="class=active" if current_page?( '/news') %> >news</a></li>
+
+        </ul>
+        <ul class="nav navbar-nav flex-child-menu menu-right">
+          <li class="dropdown first">
+            <a href="#/profile" class="btn btn-default dropdown-toggle lv1 <%= "active" if controller.controller_name == "users" %>" data-toggle="dropdown" data-hover="dropdown">
+          profile <i class="fa fa-angle-down" aria-hidden="true"></i>
+          </a>
+            <ul class="dropdown-menu level1">
+              <li><a href="/user/profile">User Profile</a></li>
+              <li><a href="/user/favorite">Favorite Movies</a></li>
+              <li><a href="/user/rated">Rated Movies</a></li>
+              <li><a href="/user/logout">Log Out</a></li>
+            </ul>
+          </li>
+          <li class="loginLink"><a href="index.html#">LOG In</a></li>
+          <li class="btn signupLink"><a href="index.html#">sign up</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </nav>
+
+    <!-- top search form -->
+    <div class="top-search">
+      <select>
+        <option value="united">TV show</option>
+        <option value="saab">Others</option>
+      </select>
+      <input type="text" placeholder="Search for a movie, TV Show or celebrity that you are looking for">
+    </div>
+  </div>
+</header>
+<!-- END | Header -->

@@ -17,5 +17,6 @@ Rails.application.routes.draw do
   get '/user/profile', to: 'users#index'
   get '/user/favorite', to: 'users#favorite'
   get '/user/rated', to: 'users#rated'
+  get '/user/password', to: 'users#password'
 
 end

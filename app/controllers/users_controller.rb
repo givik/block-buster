@@ -9,4 +9,7 @@ class UsersController < ApplicationController
   def rated
   end
 
+  def password
+  end
+
 end
