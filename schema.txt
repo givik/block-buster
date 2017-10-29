@@ -3,23 +3,30 @@
   - movie_videos (movie_id: integer, url: string)
   - movie_photos (movie_id: integer, url: string)
 
-  = movie_cast
-  = movie_directors
-  = movie_writers
-  = movie_genres
-  = movie_tags
+  = movie_cast (cast_id: integer, movie_id: integer)
+    - cast (id: integer, cast: string)
+  = movie_directors (director_id: integer, movie_id: integer)
+    - directors (id: integer, director: string)
+  = movie_writers (writer_id: integer, movie_id: integer)
+    - writers (id: integer, writer: string)
+  = movie_genres (genre_id: integer, movie_id: integer)
+    genres (id: integer, genre: string)
+  = movie_tags (tag_id: integer, movie_id: integer)
+    - tags (id: integer, tag: string)
 
 2. Celebrity (bio: text, fullname: string, birthdate: date, country: string, height: string)
   - celebrity_videos (celebrity_id: integer, url: string)
   - celebrity_photos (celebrity_id: integer, url: string)
 
-  = celebrity_films
-  = celebrity_tags
+  = movie_cast
+  = celebrity_tags_tags (celebrity_id: integer, tag_id: integer)
+    - celebrity_tags (id: integer, tag: string)
 
 3. News (title: string, cover: string, text: text, date: date)
   - news_comments (user_id: integer, news_id: integer, name: string, email: string, website: string, comment: text, date: date)
 
-  = news_tags
+  = news_tags_tags (news_id: integer, tag_id: integer)
+    - news_tags (id: integer, tag: string)
 
 4. Users (username: string, email: string, password: string, firstname: string, lastname: string, country: string, state: string)
   - user_favorite (movie_id: integer, user_id: integer)
