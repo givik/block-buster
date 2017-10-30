@@ -1,0 +1,2 @@
+class CelebrityTag < ApplicationRecord
+end

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: 
+  cover: 
+  rating: 
+  overview: 
+  release: 
+  runtime: 2017-10-30 17:03:03
+
+two:
+  title: 
+  cover: 
+  rating: 
+  overview: 
+  release: 
+  runtime: 2017-10-30 17:03:03

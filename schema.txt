@@ -10,7 +10,7 @@
   = movie_writers (writer_id: integer, movie_id: integer)
     - writers (id: integer, writer: string)
   = movie_genres (genre_id: integer, movie_id: integer)
-    genres (id: integer, genre: string)
+    - genres (id: integer, genre: string)
   = movie_tags (tag_id: integer, movie_id: integer)
     - tags (id: integer, tag: string)
 
@@ -33,6 +33,6 @@
   - user_favorite (movie_id: integer, user_id: integer)
   - user_rated (movie_id: integer, user_id: integer, review_id: integer)
 
-5. INTHEATER (movie_id: integer, datetime: datetime)
+5. In_theater (movie_id: integer, datetime: datetime)
 
-6. ONTV (movie_id: integer, datetime: datetime)
+6. On_tv (movie_id: integer, datetime: datetime)

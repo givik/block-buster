@@ -1,0 +1,2 @@
+class UserRated < ApplicationRecord
+end

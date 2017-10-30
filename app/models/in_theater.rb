@@ -1,0 +1,2 @@
+class InTheater < ApplicationRecord
+end

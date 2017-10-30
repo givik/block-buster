@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 
+  movie_id: 
+  title: 
+  rating: 
+  comment: 
+  date: 2017-10-30
+
+two:
+  user_id: 
+  movie_id: 
+  title: 
+  rating: 
+  comment: 
+  date: 2017-10-30

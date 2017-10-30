@@ -1,0 +1,2 @@
+class NewsTagsTag < ApplicationRecord
+end

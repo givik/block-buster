@@ -1,0 +1,2 @@
+class CelebrityPhoto < ApplicationRecord
+end
