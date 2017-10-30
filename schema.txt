@@ -14,7 +14,7 @@
   = movie_tags (tag_id: integer, movie_id: integer)
     - tags (id: integer, tag: string)
 
-2. Celebrity (bio: text, fullname: string, birthdate: date, country: string, height: string)
+2. Celebrity (bio: text, full_name: string, birthdate: date, country: string, height: string)
   - celebrity_videos (celebrity_id: integer, url: string)
   - celebrity_photos (celebrity_id: integer, url: string)
 
@@ -24,13 +24,14 @@
 
 3. News (title: string, cover: string, text: text, date: date)
   - news_comments (user_id: integer, news_id: integer, name: string, email: string, website: string, comment: text, date: date)
+  - news_categories (news_id: integer, category: string)
 
   = news_tags_tags (news_id: integer, tag_id: integer)
     - news_tags (id: integer, tag: string)
 
-4. Users (username: string, email: string, password: string, firstname: string, lastname: string, country: string, state: string)
+4. Users (username: string, email: string, password: string, first_name: string, last_name: string, country: string, state: string)
   - user_favorite (movie_id: integer, user_id: integer)
-  - user_rated (movie_id: integer, user_id: ingeter, review_id: integer)
+  - user_rated (movie_id: integer, user_id: integer, review_id: integer)
 
 5. INTHEATER (movie_id: integer, datetime: datetime)
 
