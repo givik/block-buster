@@ -4,3 +4,13 @@
 .nav.navbar-nav.flex-child-menu li a.active{
   color: #dcf836;
 }
+.section-title {
+  font-size: 28px;
+  color: #dcf836;
+  border-bottom: 3px solid #dcf836;
+  font-family: 'Dosis', sans-serif;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 50px;
+  display: inline-block;
+}

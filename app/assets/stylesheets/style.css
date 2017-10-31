@@ -6078,7 +6078,7 @@ ul {
 .movie-single .movie-single-ct .movie-rate .rate-star i.ion-ios-star {
   color: #f5b50a;
 }
-.movie-single .movie-single-ct .tab h3 {
+.movie-single .movie-single-ct h3 {
   font-family: 'Dosis', sans-serif;
   font-size: 18px;
   color: #abb7c4;
@@ -7595,7 +7595,7 @@ p.ceb-single {
 .buster-light .movie-single .movie-single-ct .mvsingle-item .vd-item:hover h6 a {
   color: #dd003f;
 }
-.buster-light .movie-single .movie-single-ct .tab h3 {
+.buster-light .movie-single .movie-single-ct h3 {
   color: #020d18;
 }
 .buster-light .movie-single .movie-single-ct .tab .rv-hd h3 {
